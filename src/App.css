@@ -1,0 +1,243 @@
+*{
+  background-color: #071146;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+}
+
+.logoo{
+  width: 30vw;
+  height: 20vw;
+}
+
+.name{
+  color: #ffffff;
+  font-size: 6.5vw;
+  font-family: 'League Spartan Bold', arial;
+  height: 80px;
+  cursor: default;
+}
+
+.dynamicText{
+  margin: auto;
+  height: 35px;
+  color: #f06449;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5vw;
+  cursor: default;
+}
+
+.neon{
+  border-color: #26b3cf;
+  color: #fff;
+}
+
+.btn {
+  border-radius: 0.2vw;
+  cursor: pointer;
+}
+
+.dim, .dim:focus, .dim:hover {
+    transition: opacity .15s ease-in;
+}
+
+.dim {
+    opacity: 1;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev {
+  left: 0%;
+}
+
+.slides .slick-next {
+  right: 0%;
+}
+
+.card {
+  position: relative;
+  width: 450px;
+  height:250px;
+  padding:10px 15px 15px 10px;
+  margin-top:50px;
+  margin-left: 500px; 
+  border-radius: 2px;
+  background: url("texture.jpg");
+  background-size: cover;
+  box-shadow: 
+  /* top shadow */
+  0px -10px 10px rgba(0,0,0,0.2),
+  /* bottom shadow */
+  0px 10px 20px rgba(0,0,0,0.4),
+  /* left shadow */
+  -10px 0px 20px rgba(0,0,0,0.4),
+  /*right shadow */
+  10px 0px 20px rgba(0,0,0,0.4),
+  /* inner shadow */
+  inset 1px 1px 20px rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor:pointer;
+  transition: 0.5s;
+}
+
+
+.logo {
+  width: 120px;
+  height: 120px;
+  background: url("gold-texture.jpg");
+  background-size: cover;
+  mask: url("logoo.png");
+  -webkit-mask: url("logoo.png");
+}
+.company-text {
+  font-size: 26px;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  padding-top:20px;
+  color: transparent;
+  background: url("gold-texture.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-shadow: -1px -1px 1px rgba(0,0,0,0.1);
+}
+.bc {
+    border-color: #172a45;
+    background-color: #172a45;
+}
+
+.card.back .left {
+  position: absolute;
+  left: 30px;
+  top: 25px;
+  color:transparent;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.name-text {
+  font-size: 32px;
+  word-spacing: 8px;
+  background:url("silver-texture.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: cover;
+}
+.role-text {
+  font-size: 18px;
+  background:url("gold-texture.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: cover;
+}
+.card.back .right {
+  position: absolute;
+  width: 200px;
+  right: 10px;
+  bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color:transparent;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  background:url("silver-texture.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: cover;
+}
+
+.card.front {
+  transform: rotateZ(-7deg);
+  left: -15%;
+}
+
+.card.back {
+  margin-bottom: 25px;
+  transform: rotateZ(4deg);
+  left: 5%;
+  top: -2%;
+}
+
+.card:hover {
+  transform: scale(1.07);
+}
+
+.rainbow:hover {
+-webkit-animation:rainbow 6s infinite;
+-ms-animation:rainbow 6s infinite;
+-o-animation:rainbow 6s infinite;
+animation:rainbow 6s infinite;
+}
+
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
