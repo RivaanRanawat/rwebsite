@@ -241,3 +241,8 @@ animation:rainbow 6s infinite;
 90% {color: #8000ff;}
 100% {color: #ff0080;}
 }
+
+@font-face {
+  font-family: League Spartan Bold;
+  src: url(league-spartan.ttf);
+}

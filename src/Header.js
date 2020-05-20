@@ -14,7 +14,7 @@ class Header extends Component{
     <div className='name rainbow tc mb3'>
       <Wave iterations='1' effect='verticalFadeIn' text="Rivaan Ranawat"/>
     </div>
-    <div className='dynamicText rainbow mb3'>
+    <div className='dynamicText rainbow mb4'>
     <Typical
         steps={['Hello!', 1000, "I'm Rivaan Ranawat!", 500, "I'm a passionate coder!", 500, "I'm a 15 year old android and web developer from India!", 1000, "Discover More About Me!", 500]}
         loop={Infinity}
